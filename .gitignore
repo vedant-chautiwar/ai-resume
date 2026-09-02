@@ -1,0 +1,30 @@
+# Environment variables
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+backend/venv/
+
+# Node / Vite
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+
+# Local generated application data
+backend/data/vectorstore/
+backend/uploads/
+data/vectorstore/
+uploads/
+
+# Logs and local editor files
+*.log
+.vscode/
+.idea/
+.DS_Store
